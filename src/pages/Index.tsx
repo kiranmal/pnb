@@ -132,7 +132,7 @@ const Index = () => {
               </Link>
             </div>
 
-            {
+            {/*
               <div className="space-y-4 lg:space-y-6 order-1 lg:order-2">
                 <Card className="bg-medical/5 border-medical/20">
                   <CardHeader className="pb-3 lg:pb-4">
@@ -164,7 +164,7 @@ const Index = () => {
                   </CardContent>
                 </Card>
               </div>
-            }
+            */}
           </div>
         </div>
       </section>

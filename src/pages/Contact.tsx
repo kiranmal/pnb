@@ -62,7 +62,11 @@ const Contact = () => {
         },
       );
 
-      alert("Your message has been sent successfully!");
+      toast({
+        title: "Message Sent Successfully!",
+        description:
+          "Thank you for contacting PBN Health. Our team will get back to you soon.",
+      });
 
       setForm({
         firstName: "",
